@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    font-family: Figtree, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    margin-top: 8rem;
+    width: 450px;
+    min-width: 375px;
+    height: 610px;
+    border-radius: 1.5rem;
+    text-align: center;
+    box-shadow: 10px 10px 0 hsl(0, 0%, 7%);
+}
+
+.feature-img {
+    width: 400px;
+    margin: 1.5rem;
+    border-radius: 1rem;
+}
+
+h3 {
+    background-color: hsl(47, 88%, 63%);
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 1.5rem;
+    border-radius: 5px;
+}
+
+.publish-date {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.2rem;
+    text-align: left;
+}
+
+h1 {
+    margin-left: 1.5rem;
+    text-align: left;
+    font-weight: 800;
+    color: hsl(0, 0%, 7%);
+    margin-bottom: 1.2rem;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+    opacity: 0.6;
+}
+
+.blog {
+    margin-left: 1.5rem;
+    color: hsl(0, 0%, 50%);
+    text-align: left;
+    line-height: 1.5em;
+    word-spacing: 5px;
+    font-weight: normal;
+    padding-right: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.profile {
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.profile img {
+    display: inline;
+    width: 45px;
+    margin-right: 1rem;
+}
+
+.profile p {
+    display: inline;
+    font-weight: 800;
+} 
+
+.attribution {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 18px;
+}
